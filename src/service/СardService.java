@@ -22,7 +22,6 @@ public class СardService implements ICardService {
 
         return serviceCard;
     }
-
     @Override
     public Card createCard(User user, String number, int pin) {
         int balance = 0;

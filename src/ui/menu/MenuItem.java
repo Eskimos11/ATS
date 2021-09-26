@@ -15,6 +15,7 @@ public class MenuItem {
         this.nextMenu = nextMenu;
     }
 
+
     public MenuItem(String title, IAction action) {
         this.title = title;
     }

@@ -8,6 +8,7 @@ public class Printer {
         System.out.println(message);
     }
 
+
     public static <T> void printList(List<T> name){
         for (int i=0; i<name.size(); i++){
             System.out.println(name.get(i));

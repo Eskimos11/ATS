@@ -9,7 +9,6 @@ public class Starter {
 
        MenuController.getInstance().run();
 
-
     }
 }
 

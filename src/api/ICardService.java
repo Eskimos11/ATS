@@ -20,5 +20,4 @@ public interface ICardService {
     Card findCard(String number);
 
     Card findAut();
-
 }

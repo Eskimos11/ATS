@@ -3,6 +3,7 @@ package api;
 import model.Card;
 
 public interface IATSfasade {
+
     Card logIn(String number, int pin);
 
     Card findAut();

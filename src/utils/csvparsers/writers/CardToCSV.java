@@ -9,7 +9,6 @@ import java.io.PrintWriter;
 
 public class CardToCSV {
 
-
 	private static final String CARD_CSV = Settings.getInstance().getProperty("card");
 
 	public static void writeCarsToCSV() {

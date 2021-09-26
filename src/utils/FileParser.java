@@ -43,7 +43,6 @@ public class FileParser {
             ((Card) newCard).setPin(Integer.parseInt(parsedString[2]));
 
             loadedCard.add(newCard);
-
         }
         return loadedCard;
     }

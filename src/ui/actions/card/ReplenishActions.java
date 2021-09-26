@@ -7,7 +7,6 @@ import ui.actions.IAction;
 import java.util.Scanner;
 
 public class ReplenishActions  extends AbstractAction implements IAction {
-
     @Override
     public void execute() {
         Card card = atSfasade.findAut();

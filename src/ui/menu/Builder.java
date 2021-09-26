@@ -20,6 +20,7 @@ public class Builder {
     }
 
     public void buildMenu() {
+
         rootMenu = new Menu();
         rootMenu.setName("ATS");
         rootMenu.addMenuItem(new MenuItem("Menu", () -> {

@@ -64,7 +64,6 @@ public class ATSfasade implements IATSfasade {
         }
 
     }
-
     public void importRoomsFromCSV() {
         try {
             this.setCard(FileParser.stringToCard(CSVToCard.readCard()));

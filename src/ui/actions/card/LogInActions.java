@@ -9,7 +9,6 @@ import java.util.Scanner;
 
 public class LogInActions extends AbstractAction implements IAction {
 
-
     @Override
     public void execute() {
         Scanner scanner = new Scanner(System.in);

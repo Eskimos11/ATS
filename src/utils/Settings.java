@@ -28,6 +28,7 @@ public class Settings {
         initialize();
     }
 
+
     private void initialize() {
         try {
             input = new FileInputStream(FILENAME);

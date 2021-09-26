@@ -15,7 +15,6 @@ public class Card {
         this.balance = balance;
         this.pin = pin;
     }
-
     public Card() {
     }
 

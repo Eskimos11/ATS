@@ -37,6 +37,7 @@ public class Navigator {
         }
     }
 
+
     public void navigate(int index) {
         try {
             if (currentMenu != null) {

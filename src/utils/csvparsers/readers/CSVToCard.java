@@ -12,7 +12,6 @@ import java.util.Scanner;
 public class CSVToCard {
 
     private static final String CARD_CSV = Settings.getInstance().getProperty("card");
-
     static String[] array;
 
     public static String[] readCard() {

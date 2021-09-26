@@ -8,6 +8,7 @@ import ui.actions.IAction;
 import java.util.Scanner;
 
 public class WithdrawMoneyActions extends AbstractAction implements IAction {
+
     @Override
     public void execute() {
         Card card = atSfasade.findAut();
